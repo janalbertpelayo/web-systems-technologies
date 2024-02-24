@@ -1,0 +1,66 @@
+<html lang="en">
+<head>   <title>Student Registration Form</title>
+    <style>
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        
+        input[type="submit"] {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td><input type="fname" name="first_name"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="lname" name="last_name"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="rathernotdisclose">Rather not disclose</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td><input type="date" name="dob"></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><input type="text" name="address"></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td><input type="text" name="city"></td>
+        </tr>
+        <tr>
+            <td>Zip Code</td>
+            <td><input type="text" name="zip_code"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2"><input type="submit" value="Submit"></td>
+        </tr>
+    </table>
+</body>
+</html>
