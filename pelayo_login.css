@@ -1,0 +1,97 @@
+ body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+
+        .container {
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: arial, sans-serif;
+        }
+
+
+        .container input[type="text"],
+        .container input[type="password"] {
+            width: 100%;
+            padding: 10px 10px 10px 30px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            text-align: left;
+        }
+
+
+        .container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #0099ff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+
+        .container input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+
+        .input-group {
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+
+        .input-group input {
+            padding-left: 30px;
+        }
+
+
+        .input-group i {
+            position: absolute;
+            left: 10px;
+            top: 25%;
+            transform: translateY(-25%);
+            color: #555;
+        }
+
+
+        .submit-group {
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .submit-group input[type="submit"] {
+            width: 110px;
+            padding-right: 30px;
+            margin-right: 1px;
+            position: relative;
+        }
+
+
+        .submit-group i {
+            position: absolute;
+            right: 115px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #fff;
+        }
