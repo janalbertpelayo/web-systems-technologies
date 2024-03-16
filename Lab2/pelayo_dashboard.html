@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-
-    <link rel="stylesheet" href="pelayo_dashboard.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <h class="container">
-        <div class="header">Dashboard</div>
-        <strong><div class="welcome_user">WELCOME, Jan Albert!!</div></strong>
-        <div class="message">Welcome to the dashboard! This is the main content area where you can display various information and charts.</div>
-        
-        <div class="navigation">
-            <a href="#">Dashboard</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Analytics</a></li>
-                <li><a href="#">Reports</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
-        </div>
+<body class="bg-gray-200">
+  <div class="flex flex-col h-screen">
 
-        <button class="logout_button">Logout</button>
+    <!-- Dashboard -->
+    <div class="header bg-blue-600 text-white text-center font-bold text-xl py-4 mb-4">Dashboard</div>
 
-        <div class="footer">&copy; 2024 Dashboard. All rights reserved.</div>
-    </h>
+    <!-- Welcome message -->
+    <div class="welcome-message text-center text-lg font-bold">WELCOME, Hyan!!</div>
+    <div class="description text-center text-base mb-4">Welcome to the dashboard! This is the main content area where you can display various information and charts.</div>
     
+    <!-- Navigation -->
+    <div class="flex flex-row">
+      <div class="navigation w-48 bg-gray-600 text-white p-4 mr-4 rounded">
+        <ul class="list-none p-0 m-0">
+          <li class="mb-2"><a href="#" class="text-lg">Home</a></li>
+          <li class="mb-2"><a href="#" class="text-lg">Analytics</a></li>
+          <li class="mb-2"><a href="#" class="text-lg">Reports</a></li>
+          <li class="mb-2"><a href="#" class="text-lg">Settings</a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <!-- Logout button -->
+    <a href="login.html" class="ml-auto px-4 py-1 bg-red-600 text-white rounded cursor-pointer inline-block">Logout</a>
+    
+    <!-- Footer -->
+    <div class="footer text-center py-2 bg-gray-600 text-white text-sm mt-auto">© 2024 Dashboard. All rights reserved.</div>
+    
+  </div>
 </body>
 </html>
